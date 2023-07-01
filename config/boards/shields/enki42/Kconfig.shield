@@ -9,3 +9,6 @@ config SHIELD_ENKI42_RIGHT
 
 config SHIELD_ENKI42_DONGLE
 	def_bool $(shields_list_contains,enki42_dongle)
+
+config SHIELD_DONGLE_SETTINGS_RESET
+	def_bool $(shields_list_contains,dongle_reset)

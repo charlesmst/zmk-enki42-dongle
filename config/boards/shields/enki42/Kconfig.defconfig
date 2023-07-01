@@ -23,3 +23,11 @@ config ZMK_BLE
 	default y
 	
 endif
+
+
+if SHIELD_DONGLE_SETTINGS_RESET
+
+config ZMK_KEYBOARD_NAME
+	default "SETTINGS RESET"
+
+endif

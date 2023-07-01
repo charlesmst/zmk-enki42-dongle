@@ -12,3 +12,5 @@ include:
     shield: enki42_right
   - board: nrf52840_mdk_usb_dongle
     shield: enki42_dongle
+  - board: nrf52840_mdk_usb_dongle
+    shield: settings_reset

@@ -1,0 +1,6 @@
+zmk
+zephyr
+.west
+modules
+flash.uf2
+build
